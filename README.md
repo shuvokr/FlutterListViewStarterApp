@@ -1,6 +1,7 @@
 # gettings_started_flutter
 
 A new Flutter project.
+Link: https://www.youtube.com/watch?v=0gA6o6YWheo&t=461s
 
 ## Getting Started
 
