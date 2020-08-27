@@ -14,10 +14,17 @@ class GettingsStartedFlutterApp extends StatelessWidget {
           title: new Text("Start Flutter App Devolopment"),
         ),
 
-        body: new Center(
-          child: new Text("Hello Flutter"),
-        ),
+        body: new ContentView(),
       )
     );
   }
 } 
+
+class ContentView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Center(
+      child: new Text("Hello Flutter", style: new TextStyle(fontSize: 22.0),)
+    );
+  }
+}
